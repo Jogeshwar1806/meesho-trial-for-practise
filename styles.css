@@ -174,9 +174,10 @@ input {
 }
 
 .main-front{
+  width: 80%;
   margin: 3rem 2rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .main-front-left{
@@ -254,6 +255,7 @@ input {
   align-items: center;
 }
 .partition p{
+  margin-top: 20px;
   font-size: 36px;
   color: #353543F0;
 }
@@ -263,6 +265,12 @@ input {
   height: 0.5px;
   width: 20%;
 }
+ 
+
+.footer-bottom{
+  border: 2px solid #8B8BA3;
+}
+
 
 @media(max-width:1070px){
   .main-front{
