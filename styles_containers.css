@@ -1,0 +1,19 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fashion_category{
+    display: inline-block;
+    background-image: url(fashion_category_img.jpg);
+    /* background-position: center; */
+    background-size:100% 100%;
+    /* margin : 0px 80px; */
+    border-radius: 4px;
+    padding: 90px 24px 35px;
+    margin: 48px auto 60px;
+}
+.fashion_category img{
+    border-radius: 10px;
+    margin:0px 5px;
+}
